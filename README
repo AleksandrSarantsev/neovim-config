@@ -1,0 +1,18 @@
+# Neovim configuration
+
+## Dependencies
+ - ripgrep                 - Used in mini.pick
+ - fd                      - Used in mini.pick
+ - git                     - Used in mini.pick
+ - wget                    - Downloads spell dictionaries
+ - ctags                   - Tag navigation
+ - gopls                   - Go LSP
+ - sqls                    - SQL LSP
+ - git-bash(windows only)  - Shell replacement for windows
+ - clang-format???         - C files automatic format
+
+## TODO
+ - Show starter screen when all buffers are closed
+ - Use mini.pick to select tags
+ - Setup sessions to use for code folders
+
