@@ -12,7 +12,8 @@ function M.setup()
     vim.opt.laststatus = 3                                           -- Set global status line
     vim.opt.scrolloff = 5                                            -- Set scrolling when 5 lines near end
     vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor20"  -- Set cursors for different modes
-    vim.opt.guifont = "FiraCode Nerd Font Mono:h12"                  -- Set GUI font
+    vim.opt.guifont = "FiraCode Nerd Font Mono:h12"                  -- Set GUI font64
+    vim.opt.maxmempattern = 2000000                                  -- Set memory limit for syntax parsing
 
     vim.filetype.add({extension = {pc = 'c', h = 'c'}})              -- Mark .pc and .h files as C
 
